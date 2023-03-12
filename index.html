@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zain ul Abdeen - Full Stack Website Developer</title>
+    <link rel="stylesheet" href="web_assets/frontend/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@200;300;400;500;600;700&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Schema Markup for FAQs -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What services do you offer as a digital marketer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "As a digital marketer, I offer a range of services tailored to your unique needs. These include website development, social media marketing, search engine optimization (SEO), and graphic design."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes you different from other digital marketers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "What sets me apart as a digital marketer is my commitment to delivering high-quality work and my deep understanding of the latest digital trends. I stay up-to-date with the latest tools and techniques in website development, social media marketing, and SEO to ensure that I can provide my clients with the best possible solutions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you help me improve my website's search engine rankings?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely! Search engine optimization (SEO) is one of the key services that I offer as a digital marketer. I can help you optimize your website for search engines by conducting keyword research, creating high-quality content that is optimized for specific keywords, and improving your website's technical SEO."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can you help me improve my social media presence?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "I offer a range of social media marketing services to help you improve your online presence and engagement. These include developing a comprehensive social media strategy, creating and curating content that resonates with your audience, and running social media advertising campaigns to reach a wider audience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What kind of graphic design services do you offer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "I offer a range of graphic design services tailored to your unique needs. These include designing logos and branding materials, creating visual content for social media and website use, and developing print materials such as brochures and business cards."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#">
+            <img
+              width="50"
+              height="50"
+              src="web_assets/frontend/images/logo.png"
+              alt="Zain ul Abdeen"
+            />
+            <span>ain</span>
+          </a>
+        </div>
+        <nav id="navbar">
+          <a href="#"> Home </a>
+          <a href="#"> About </a>
+          <a href="#"> Blogs </a>
+          <a href=""> My Works </a>
+          <a href="#/services"> Services </a>
+        </nav>
+        <div class="toggler">
+          <a href="#" class="primary__btn"> Hire Me </a>
+          <button class="nav__toggler show__on__mobile">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="top__section">
+        <div class="bg">
+          <img src="web_assets/frontend/images/logo.png" alt="Zain ul Abdeen" />
+          <div>
+            <h1>Zain ul Abdeen <span>Digital Solutions Expert</span></h1>
+            <div class="console-container">
+              <span id="text"></span>
+              <div class="console-underscore" id="console">&#95;</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--
+      |--------------------------------------------------------------------------
+      | About ME Section 
+      |--------------------------------------------------------------------------
+      -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="header">
+            <h2>Meet <span class="bg__primary">Zain ul Abdeen</span></h2>
+            <p>
+              From design to deployment, get to know the full spectrum of my
+              expertise.
+            </p>
+          </div>
+          <div class="about__section">
+            <div class="row">
+              <div class="col-md-4">
+                <img
+                  src="web_assets/frontend/images/profile.jpg"
+                  alt="Zain ul Abdeen"
+                />
+              </div>
+              <div class="col-md-8">
+                <p>
+                  Welcome to my portfolio website! I'm a multi-talented digital
+                  marketer specializing in website development with experience
+                  in social media marketing, SEO, and graphic design. With a
+                  deep understanding of the latest digital trends and a
+                  commitment to delivering high-quality work, I help businesses
+                  grow and thrive online. I offer customized services tailored
+                  to your unique needs, from developing engaging social media
+                  strategies to creating stunning graphics that resonate with
+                  your target audience. With my expertise, commitment to
+                  quality, and dedication to client satisfaction, I can help you
+                  achieve your online goals and take your business to new
+                  heights. Let's work together to create something amazing!
+                </p>
+                <div class="social__links">
+                  <a title="Facebook" href="#">
+                    <img src="web_assets/frontend/images/facebook.svg" alt="" />
+                  </a>
+                  <a title="Twitter" href="#">
+                    <img src="web_assets/frontend/images/twitter.svg" alt="" />
+                  </a>
+                  <a title="Linkedin" href="#">
+                    <img
+                      src="web_assets/frontend/images/linkedin-in.svg"
+                      alt=""
+                    />
+                  </a>
+                  <a title="Instagram" href="#">
+                    <img
+                      src="web_assets/frontend/images/instagram.svg"
+                      alt=""
+                    />
+                  </a>
+                  <a title="Stack Overflow" href="#">
+                    <img
+                      src="web_assets/frontend/images/stack-overflow.svg"
+                      alt=""
+                    />
+                  </a>
+                  <a title="Github" href="#">
+                    <img src="web_assets/frontend/images/github.svg" alt="" />
+                  </a>
+                  <a title="dev.to" href="#">
+                    <img src="web_assets/frontend/images/dev.svg" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--
+      |--------------------------------------------------------------------------
+      | Services Section 
+      |--------------------------------------------------------------------------
+      -->
+      <section id="services" class="section services">
+        <div class="container">
+          <div class="header">
+            <h2>What I <span class="bg__primary">Offer</span> ?</h2>
+            <p>
+              From design to deployment, get to know the full spectrum of my
+              expertise.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <div class="card-header">
+                  <img
+                    src="web_assets/frontend/images/code.png"
+                    alt="Website Development"
+                  />
+                  <h3>Website Development</h3>
+                </div>
+                <div class="card-body">
+                  <p>
+                    My website development services are tailored to your
+                    specific needs, ensuring a unique online presence for your
+                    business.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-header">
+                  <img
+                    src="web_assets/frontend/images/statistics.png"
+                    alt="SEO Expert"
+                  />
+                  <h3>SEO Expert</h3>
+                </div>
+                <div class="card-body">
+                  <p>
+                    My SEO services will optimize your website to improve your
+                    search engine ranking, driving more traffic to your site.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-header">
+                  <img
+                    src="web_assets/frontend/images/vector.png"
+                    alt="Graphic Designer Services"
+                  />
+                  <h3>Graphic Designer</h3>
+                </div>
+                <div class="card-body">
+                  <p>
+                    My graphic designing services will help your brand stand out
+                    with visually stunning and engaging designs.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-header">
+                  <img
+                    src="web_assets/frontend/images/mobile-app.png"
+                    alt="Graphic Designer Services"
+                  />
+                  <h3>Mobile APP Development</h3>
+                </div>
+                <div class="card-body">
+                  <p>
+                    My mobile app development services will help you deliver an
+                    exceptional user experience to your customers, boosting
+                    engagement and loyalty.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-header">
+                  <img
+                    src="web_assets/frontend/images/content-managing.png"
+                    alt="Graphic Designer Services"
+                  />
+                  <h3>Social Media Management</h3>
+                </div>
+                <div class="card-body">
+                  <p>
+                    My social media marketing services will help you reach a
+                    wider audience, engage with potential customers, and grow
+                    your business.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-header">
+                  <img
+                    src="web_assets/frontend/images/content-writing.png"
+                    alt="Graphic Designer Services"
+                  />
+                  <h3>Content Creation and Marketing</h3>
+                </div>
+                <div class="card-body">
+                  <p>
+                    My content creation and marketing services are designed to
+                    help businesses establish their brand voice and attract more
+                    customers through high-quality content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="works" class="section section-portfolio">
+        <div class="container">
+          <div class="header">
+            <h2>Recent <span class="bg__primary">Works</span></h2>
+            <p>
+              Discover my latest projects and see how I'm creating exceptional
+              digital experiences for my clients.
+            </p>
+          </div>
+          <div class="row-2">
+            <div
+              class="col-2"
+              data-aos="zoom-out"
+              data-aos-delay="50"
+              data-aos-duration="300"
+            >
+              <a href="#">
+                <img src="web_assets/frontend/images/mojamuseum.png" alt="" />
+              </a>
+            </div>
+            <div
+              class="col-2"
+              data-aos="zoom-out"
+              data-aos-delay="50"
+              data-aos-duration="300"
+            >
+              <a href="#">
+                <img
+                  src="web_assets/frontend/images/drkaranrajan-full.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="col-2"
+              data-aos="zoom-out"
+              data-aos-delay="50"
+              data-aos-duration="300"
+            >
+              <a href="#">
+                <img
+                  src="web_assets/frontend/images/neostasi-full.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="col-2"
+              data-aos="zoom-out"
+              data-aos-delay="50"
+              data-aos-duration="300"
+            >
+              <a href="#">
+                <img
+                  src="web_assets/frontend/images/iphoneyetlikservis-min-full.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="col-2"
+              data-aos="zoom-out"
+              data-aos-delay="50"
+              data-aos-duration="300"
+            >
+              <a href="#">
+                <img
+                  src="web_assets/frontend/images/watchshadowdragon-full.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div
+              class="col-2"
+              data-aos="zoom-out"
+              data-aos-delay="50"
+              data-aos-duration="300"
+            >
+              <a href="#">
+                <img
+                  src="web_assets/frontend/images/diamondelite-full.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="r">
+            <a href="#" class="primary__btn">Hire Me</a>
+          </div>
+        </div>
+      </section>
+      <!--
+      |--------------------------------------------------------------------------
+      | Testimonial Section 
+      |--------------------------------------------------------------------------
+      -->
+      <section id="testimonial" class="section section-testimonial">
+        <div class="container">
+          <div class="header">
+            <h2><span>Testimonials</span></h2>
+            <p>
+              See what others have to say about their experience working with
+              me.
+            </p>
+          </div>
+          <div class="row">
+            <div class="slick-slider">
+              <div class="testimonial">
+                <img
+                  src="web_assets/frontend/images/client1.jpg"
+                  alt="Client 1"
+                />
+                <h3>John Doe</h3>
+                <p>
+                  "Working with Zain ul Abdeen was a pleasure. They were
+                  professional, responsive, and delivered great results. I
+                  highly recommend their services."
+                </p>
+              </div>
+              <div class="testimonial">
+                <img
+                  src="web_assets/frontend/images/client2.jpg"
+                  alt="Client 2"
+                />
+                <h3>Jane Smith</h3>
+                <p>
+                  "I am so glad that I hired Zain ul Abdeen to build my website.
+                  They exceeded my expectations and were a pleasure to work with
+                  from start to finish."
+                </p>
+              </div>
+              <div class="testimonial">
+                <img
+                  src="web_assets/frontend/images/client3.jpg"
+                  alt="Client 3"
+                />
+                <h3>Bob Johnson</h3>
+                <p>
+                  "Zain ul Abdeen is a true professional who goes above and
+                  beyond to deliver quality work. I highly recommend them to
+                  anyone looking for a website developer."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--
+      |--------------------------------------------------------------------------
+      | Faqs Section 
+      |--------------------------------------------------------------------------
+      -->
+      <section id="faqs" class="section">
+        <div class="container">
+          <div class="header">
+            <h2><span>FAQs</span></h2>
+            <p>What most of the people ask questions about me?</p>
+          </div>
+          <div class="faqs">
+            <div itemscope itemtype="https://schema.org/Service" class="faq">
+              <h3 class="faq-question">
+                What services do you offer as a digital marketer?
+              </h3>
+              <div itemprop="description" class="faq-answer">
+                <p>
+                  As a digital marketer, I offer a range of services tailored to
+                  your unique needs. These include website development, social
+                  media marketing, search engine optimization (SEO), and graphic
+                  design. I can help you create a stunning website that
+                  showcases your brand and engages your target audience, develop
+                  a comprehensive social media strategy to increase your online
+                  presence and engagement, optimize your website for search
+                  engines to improve your visibility and attract more organic
+                  traffic, and create eye-catching graphics and visual content
+                  that resonate with your audience.
+                </p>
+              </div>
+            </div>
+            <div itemscope itemtype="https://schema.org/Service" class="faq">
+              <h3 class="faq-question">
+                What makes you different from other digital marketers?
+              </h3>
+              <div itemprop="description" class="faq-answer">
+                <p>
+                  What sets me apart as a digital marketer is my commitment to
+                  delivering high-quality work and my deep understanding of the
+                  latest digital trends. I stay up-to-date with the latest tools
+                  and techniques in website development, social media marketing,
+                  and SEO to ensure that I can provide my clients with the best
+                  possible solutions. I also take a customized approach to every
+                  project, tailoring my services to meet the unique needs and
+                  goals of each client. Finally, I am dedicated to client
+                  satisfaction and will work tirelessly to ensure that you are
+                  happy with the results of our collaboration.
+                </p>
+              </div>
+            </div>
+            <div itemscope itemtype="https://schema.org/Service" class="faq">
+              <h3 class="faq-question">
+                Can you help me improve my website's search engine rankings?
+              </h3>
+              <div itemprop="description" class="faq-answer">
+                <p>
+                  Absolutely! Search engine optimization (SEO) is one of the key
+                  services that I offer as a digital marketer. I can help you
+                  optimize your website for search engines by conducting keyword
+                  research, creating high-quality content that is optimized for
+                  specific keywords, and improving your website's technical SEO.
+                  By improving your website's search engine rankings, I can help
+                  you attract more organic traffic and reach a wider audience
+                  online.
+                </p>
+              </div>
+            </div>
+            <div itemscope itemtype="https://schema.org/Service" class="faq">
+              <h3 class="faq-question">
+                How can you help me improve my social media presence?
+              </h3>
+              <div itemprop="description" class="faq-answer">
+                <p>
+                  I offer a range of social media marketing services to help you
+                  improve your online presence and engagement. These include
+                  developing a comprehensive social media strategy, creating and
+                  curating content that resonates with your audience, and
+                  running social media advertising campaigns to reach a wider
+                  audience. By working with me, you can create a strong social
+                  media presence that helps you connect with your audience and
+                  achieve your online goals.
+                </p>
+              </div>
+            </div>
+            <div itemscope itemtype="https://schema.org/Service" class="faq">
+              <h3 class="faq-question">
+                What kind of graphic design services do you offer?
+              </h3>
+              <div itemprop="description" class="faq-answer">
+                <p>
+                  I offer a range of graphic design services tailored to your
+                  unique needs. These include designing logos and branding
+                  materials, creating visual content for social media and
+                  website use, and developing print materials such as brochures
+                  and business cards. Whether you need a stunning logo that
+                  showcases your brand, eye-catching social media graphics that
+                  engage your audience, or professional print materials that
+                  promote your business, I can help you create something
+                  amazing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--
+      |--------------------------------------------------------------------------
+      | Blogs Section 
+      |--------------------------------------------------------------------------
+      -->
+      <section id="blog">
+        <div class="container">
+          <div class="header">
+            <h2>My <span>Blogs</span></h2>
+            <p>
+              Gain valuable insights and inspiration from my blog posts,
+              featuring my latest projects and industry news.
+            </p>
+          </div>
+          <div class="blog-section">
+            <div class="blog-card">
+              <img
+                src="web_assets/frontend/images/client3.jpg"
+                alt="Blog Image"
+              />
+              <h3>Blog Post Title</h3>
+              <p class="blog-date">Published on June 1, 2023</p>
+              <a href="#" class="read-more-link">Read More</a>
+            </div>
+
+            <div class="blog-card">
+              <img
+                src="web_assets/frontend/images/client2.jpg"
+                alt="Blog Image"
+              />
+              <h3>Blog Post Title</h3>
+              <p class="blog-date">Published on May 15, 2023</p>
+              <a href="#" class="read-more-link">Read More</a>
+            </div>
+
+            <div class="blog-card">
+              <img
+                src="web_assets/frontend/images/client1.jpg"
+                alt="Blog Image"
+              />
+              <h3>Blog Post Title</h3>
+              <p class="blog-date">Published on April 27, 2023</p>
+              <a href="#" class="read-more-link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--
+      |--------------------------------------------------------------------------
+      | Section | Contact 
+      |--------------------------------------------------------------------------
+      -->
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="header">
+            <h2><span>Contact</span></h2>
+            <p>
+              Here are some of the ways through which you can contact me, I will
+              try to back to you as soon as possible
+            </p>
+          </div>
+          <div class="row">
+            <div class="col">
+              <form class="contact-form" action="#">
+                <div class="input-group">
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    placeholder="Your Name..."
+                    name="name"
+                    id="name"
+                  />
+                </div>
+                <div class="input-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    placeholder="Your Email"
+                    name="email"
+                    id="email"
+                  />
+                </div>
+                <div class="input-group">
+                  <label for="service">Service Type</label>
+                  <select name="service" id="service">
+                    <option value="Website Development">
+                      Website Development
+                    </option>
+                    <option value="SEO">Search engine optimization</option>
+                    <option value="Graphic designing">Graphic designing</option>
+                    <option value="Social Media Marketing">
+                      Social Media Marketing
+                    </option>
+                  </select>
+                </div>
+                <div class="input-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    placeholder="Your Message"
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+                <div class="input-group">
+                  <input
+                    value="Send Message"
+                    name="send_message"
+                    id="submit"
+                    type="submit"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="footer-wrapper">
+                <div class="logo">
+                  <a href="#">
+                    <img
+                      src="web_assets/frontend/images/logo.png"
+                      alt="Zain ul Abdeen"
+                    />
+                    <span>ain</span>
+                  </a>
+                </div>
+                <p>
+                  Empowering businesses with innovative and user-friendly
+                  digital marketing tools and techniques.
+                </p>
+                <div class="social-links">
+                  <a href="#">
+                    <img src="web_assets/frontend/images/facebook.svg" alt="" />
+                  </a>
+                  <a href="#">
+                    <img src="web_assets/frontend/images/twitter.svg" alt="" />
+                  </a>
+                  <a href="#">
+                    <img
+                      src="web_assets/frontend/images/linkedin-in.svg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="important-links">
+                <div>
+                  <span>Important Links</span>
+                  <a href="/#services">Services</a>
+                  <a href="/#about">About Me</a>
+                  <a href="/#works">My Works</a>
+                  <a href="/#testimonial">Testimonials</a>
+                  <a href="/#blog">Blog</a>
+                </div>
+
+                <div>
+                  <span>Support</span>
+                  <a href="/#contact">Contact</a>
+                  <a href="/#faqs">FAQs</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <span>Stay Connected</span>
+              <div class="newsletter">
+                <form action="#">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      name="newsletter"
+                      placeholder="Email address"
+                    />
+                    <button type="submit">
+                      <img
+                        src="web_assets/frontend/images/sendmessage.svg"
+                        alt="send"
+                      />
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="contact-links">
+                <a href="#">
+                  <img src="web_assets/frontend/images/email.svg" alt="" />
+                  <span>contact@zain.guru</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="footer">
+            <span>© 2023 All rights reserved.</span>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".slick-slider").slick({
+        autoplay: true, // Set to true for auto-sliding
+        autoplaySpeed: 5000, // Set the duration between slides in milliseconds
+        arrows: true, // Set to true to show navigation arrows
+        dots: true, // Set to true to show navigation dots
+        infinite: true, // Set to true to enable infinite looping of slides
+        speed: 500, // Set the speed of the slide animation in milliseconds
+        slidesToShow: 1, // Set the number of slides to show at once
+        slidesToScroll: 1, // Set the number of slides to scroll at once
+      });
+
+      AOS.init();
+
+      $(".faq-question").click(function () {
+        $(this).toggleClass("active");
+        $(this).next(".faq-answer").slideToggle(300);
+      });
+    });
+    // function([string1, string2],target id,[color1,color2])
+    consoleText(
+      [
+        "WEBSITE DEVELOPER",
+        "SEO EXPERT",
+        "MOBILE APP DEVELOPER",
+        "SOCIAL MEDIA MARKETER",
+        "GRAPHIC DESIGNER",
+      ],
+      "text",
+      ["var(--color-white)"]
+    );
+
+    function consoleText(words, id, colors) {
+      if (colors === undefined) colors = ["#fff"];
+      var visible = true;
+      var con = document.getElementById("console");
+      var letterCount = 1;
+      var x = 1;
+      var waiting = false;
+      var target = document.getElementById(id);
+      target.setAttribute("style", "color:" + colors[0]);
+      window.setInterval(function () {
+        if (letterCount === 0 && waiting === false) {
+          waiting = true;
+          target.innerHTML = words[0].substring(0, letterCount);
+          window.setTimeout(function () {
+            var usedColor = colors.shift();
+            colors.push(usedColor);
+            var usedWord = words.shift();
+            words.push(usedWord);
+            x = 1;
+            target.setAttribute("style", "color:" + colors[0]);
+            letterCount += x;
+            waiting = false;
+          }, 1000);
+        } else if (letterCount === words[0].length + 1 && waiting === false) {
+          waiting = true;
+          window.setTimeout(function () {
+            x = -1;
+            letterCount += x;
+            waiting = false;
+          }, 1000);
+        } else if (waiting === false) {
+          target.innerHTML = words[0].substring(0, letterCount);
+          letterCount += x;
+        }
+      }, 120);
+      window.setInterval(function () {
+        if (visible === true) {
+          con.className = "console-underscore hidden";
+          visible = false;
+        } else {
+          con.className = "console-underscore";
+
+          visible = true;
+        }
+      }, 400);
+    }
+
+    document.querySelector(".nav__toggler").addEventListener("click", (el) => {
+      if (el.currentTarget.classList.contains("active")) {
+        el.currentTarget.classList.remove("active");
+        document.querySelector("#navbar").classList.remove("visible");
+      } else {
+        el.currentTarget.classList.add("active");
+        document.querySelector("#navbar").classList.add("visible");
+      }
+    });
+
+    // const carousel = document.querySelector(".carousel");
+    // const images = carousel.querySelectorAll("img");
+    // const prevBtn = document.querySelector(".prev");
+    // const nextBtn = document.querySelector(".next");
+    // let currentIndex = 0;
+    // let interval;
+
+    // function showImage() {
+    //   images.forEach((image, index) => {
+    //     if (index === currentIndex) {
+    //       image.classList.add("active");
+    //       image.classList.remove("next", "prev");
+    //     } else if (
+    //       index === currentIndex + 1 ||
+    //       (currentIndex === images.length - 1 && index === 0)
+    //     ) {
+    //       image.classList.add("next");
+    //       image.classList.remove("active", "prev");
+    //     } else if (
+    //       index === currentIndex - 1 ||
+    //       (currentIndex === 0 && index === images.length - 1)
+    //     ) {
+    //       image.classList.add("prev");
+    //       image.classList.remove("active", "next");
+    //     } else {
+    //       image.classList.remove("active", "next", "prev");
+    //     }
+    //   });
+    // }
+
+    // function changeImage() {
+    //   currentIndex = (currentIndex + 1) % images.length;
+    //   showImage();
+    // }
+
+    // function startInterval() {
+    //   interval = setInterval(changeImage, 3000);
+    // }
+
+    // function stopInterval() {
+    //   clearInterval(interval);
+    // }
+
+    // nextBtn.addEventListener("click", () => {
+    //   stopInterval();
+    //   currentIndex = (currentIndex + 1) % images.length;
+    //   showImage();
+    // });
+
+    // prevBtn.addEventListener("click", () => {
+    //   stopInterval();
+    //   currentIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
+    //   showImage();
+    // });
+
+    // carousel.addEventListener("mouseover", stopInterval);
+    // carousel.addEventListener("mouseout", startInterval);
+
+    // startInterval();
+  </script>
+</html>
